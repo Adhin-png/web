@@ -6,25 +6,33 @@
 
 }
 
-body{
-    background-image: url(bgmi\ hd.jpg);
+.btn:hover{
+    background-color: aqua;
     
-    
+}
+   
+.btn{
+    border: 1px solid white;
+}
     
 
-}
+
 
 .header{
     position: fixed;
     top:0;
     left:0;
     width:100%;
+    height: 50px;
     padding:20px 10%;
     background: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background: fixed;
+    background-color: rgb(239, 238, 234);
+    
 }
 
 .logo{
@@ -36,7 +44,7 @@ body{
 
 .navbar a{
     font-size: 18px;
-    color:white;
+    color:gray;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
@@ -44,13 +52,17 @@ body{
 
 
 .home{
-    height:100vh;
+    height:50%;
     display: flex;
     align-items: center;
     padding:0 10px;
 }
 
-
+.hi
+{    height: 50%;
+    width: 100%;
+    background-image: url(bgmi\ hd.jpg);
+}
 
 .home-content{
     max-width: 600;
@@ -86,19 +98,8 @@ h2{
     background-size: 400px 100px;
 }
 
+.content{
+    overflow: hidden;
+}
 
 
-
-  
-/*   
-.container1
- {
-    text-align: left;
-    width:220px;
-    height:310px;
-    padding: 10px;
-      height: 227px;
-      border: 1px solid rgb(81, 78, 78);
-      margin-left: 264px;
-  } */
-        
